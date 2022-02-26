@@ -23,6 +23,7 @@ const template = `
     <meta name="twitter:url" content="https://x.sublimer.me" />
 </head>
 <body>
+<img src="IMAGE_URL" />
 </body>
 </html>
 `;

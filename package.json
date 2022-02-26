@@ -5,7 +5,9 @@
   "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "predeploy": "npm run build",
+    "deploy": "wrangler publish"
   },
   "repository": {
     "type": "git",
